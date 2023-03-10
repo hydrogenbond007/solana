@@ -17,8 +17,22 @@ mod spl_associated_token_account {
     solana_sdk::declare_id!("ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL");
 }
 
+<<<<<<< HEAD
 static SPL_PROGRAMS: &[(Pubkey, &[u8])] = &[
     (spl_token::ID, include_bytes!("programs/spl_token-3.5.0.so")),
+=======
+static SPL_PROGRAMS: &[(Pubkey, Pubkey, &[u8])] = &[
+    (
+        spl_token::ID,
+        solana_sdk::bpf_loader::ID,
+        include_bytes!("programs/spl_token-3.5.0.so"),
+    ),
+    (
+        spl_token_2022::ID,
+        solana_sdk::bpf_loader_upgradeable::ID,
+        include_bytes!("programs/spl_token_2022-0.6.0.so"),
+    ),
+>>>>>>> 4a94eeee5 (Upgrade to token-2022 0.6.0 (#30353))
     (
         spl_memo_1_0::ID,
         include_bytes!("programs/spl_memo-1.0.0.so"),
