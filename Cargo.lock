@@ -5171,13 +5171,8 @@ dependencies = [
  "serde_bytes",
  "serde_derive",
  "serde_json",
-<<<<<<< HEAD
  "sha2 0.10.2",
  "solana-frozen-abi-macro 1.14.8",
-=======
- "sha2 0.10.6",
- "solana-frozen-abi-macro 1.15.1",
->>>>>>> 4a94eeee5 (Upgrade to token-2022 0.6.0 (#30353))
  "subtle",
  "thiserror",
 ]
@@ -5734,12 +5729,7 @@ dependencies = [
  "libc",
  "libsecp256k1",
  "log",
-<<<<<<< HEAD
  "memoffset",
-=======
- "memoffset 0.8.0",
- "num-bigint 0.4.3",
->>>>>>> 4a94eeee5 (Upgrade to token-2022 0.6.0 (#30353))
  "num-derive",
  "num-traits",
  "parking_lot 0.12.1",
@@ -5751,19 +5741,11 @@ dependencies = [
  "serde_bytes",
  "serde_derive",
  "serde_json",
-<<<<<<< HEAD
  "sha2 0.10.2",
  "sha3 0.10.1",
  "solana-frozen-abi 1.14.8",
  "solana-frozen-abi-macro 1.14.8",
  "solana-sdk-macro 1.14.8",
-=======
- "sha2 0.10.6",
- "sha3 0.10.4",
- "solana-frozen-abi 1.15.1",
- "solana-frozen-abi-macro 1.15.1",
- "solana-sdk-macro 1.15.1",
->>>>>>> 4a94eeee5 (Upgrade to token-2022 0.6.0 (#30353))
  "thiserror",
  "tiny-bip39",
  "wasm-bindgen",
@@ -6079,7 +6061,6 @@ dependencies = [
  "serde_bytes",
  "serde_derive",
  "serde_json",
-<<<<<<< HEAD
  "sha2 0.10.2",
  "sha3 0.10.1",
  "solana-frozen-abi 1.14.8",
@@ -6087,16 +6068,6 @@ dependencies = [
  "solana-logger 1.14.8",
  "solana-program 1.14.8",
  "solana-sdk-macro 1.14.8",
-=======
- "serde_with",
- "sha2 0.10.6",
- "sha3 0.10.4",
- "solana-frozen-abi 1.15.1",
- "solana-frozen-abi-macro 1.15.1",
- "solana-logger 1.15.1",
- "solana-program 1.15.1",
- "solana-sdk-macro 1.15.1",
->>>>>>> 4a94eeee5 (Upgrade to token-2022 0.6.0 (#30353))
  "thiserror",
  "uriparse",
  "wasm-bindgen",
@@ -6687,19 +6658,6 @@ dependencies = [
 ]
 
 [[package]]
-<<<<<<< HEAD
-=======
-name = "spl-instruction-padding"
-version = "0.1.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8c5557ec281a34f7f9053feb6e0d795162ba0c6a52898b21c3d1e899481191d5"
-dependencies = [
- "num_enum",
- "solana-program 1.15.1",
-]
-
-[[package]]
->>>>>>> 4a94eeee5 (Upgrade to token-2022 0.6.0 (#30353))
 name = "spl-memo"
 version = "3.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
