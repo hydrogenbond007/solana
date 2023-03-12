@@ -19,6 +19,7 @@ pub const MAX_CONCURRENCY: u64 = 4;
 
 // Cluster data, method of collecting at https://github.com/solana-labs/solana/issues/19627
 // Dashboard: https://metrics.solana.com:8889/sources/0/dashboards/10?refresh=Paused&lower=now%28%29%20-%2012h
+// the link above doesnt work, it asking for a google login then just redirects to some other page. Could link to some dahsboards made by jito labs
 
 /// Cluster averaged compute unit to micro-sec conversion rate
 pub const COMPUTE_UNIT_TO_US_RATIO: u64 = 30;
